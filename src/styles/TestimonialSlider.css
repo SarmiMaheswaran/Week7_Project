@@ -1,0 +1,46 @@
+.testimonial-slider {
+    padding: 5rem 2rem;
+    background-color: #0044cc;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .testimonial-slider h2 {
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  .testimonial-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .testimonial {
+    max-width: 600px;
+    font-size: 1.5rem;
+    line-height: 1.7;
+    margin: 0 1.5rem;
+  }
+  
+  .testimonial h4 {
+    margin-top: 1.5rem;
+    font-weight: 600;
+  }
+  
+  button.prev,
+  button.next {
+    background-color: transparent;
+    color: #ffcc00;
+    font-size: 3rem;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  button.prev:hover,
+  button.next:hover {
+    transform: scale(1.1);
+  }
+  

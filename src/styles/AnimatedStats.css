@@ -1,0 +1,22 @@
+.animated-stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem 2rem;
+    background-color: #f0f8ff;
+  }
+  
+  .stat {
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  .stat h2 {
+    font-size: 4rem;
+    color: #0044cc;
+  }
+  
+  .stat p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
